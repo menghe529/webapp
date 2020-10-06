@@ -21,50 +21,11 @@
 
 <script>
 export default {
+    props: ['iconsList'],
     data () {
         return {
             swiperOptions: {},
-            iconsList: [{
-                id: "01",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "02",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "03",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "04",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "05",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "06",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "07",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "08",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "09",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }, {
-                id: "10",
-                iconsUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
-                title: "景点"
-            }]
+            
         }
     },
 

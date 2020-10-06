@@ -8,8 +8,10 @@
             输入城市
         </div>
         <div class="header-right">
+            <router-link to='/city'>
             北京
             <span class="iconfont">&#xe65c;</span>
+            </router-link>
 
         </div>
     </div>
@@ -54,5 +56,8 @@ export default {
 .header-right{
     font-size: .28rem;
     padding: 0 .2rem;
+}
+.header-right a{
+    color: #fff;
 }
 </style>

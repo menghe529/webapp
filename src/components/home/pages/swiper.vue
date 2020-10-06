@@ -12,18 +12,10 @@
 
 <script>
 export default {
+    props:['swiperList'],
     data () {
         return {
-            swiperList:[{
-                id : "01",
-                imgUrl: require("@/assets/img/swiper1.jpg")
-            }, {
-                id : "02",
-                imgUrl: require("@/assets/img/swiper2.jpg")
-            }, {
-                id : "03",
-                imgUrl: require("@/assets/img/swiper3.jpg")
-            }],
+            
             swiperOptions: {
                 loop: true,      
                 autoplay: true,
@@ -43,12 +35,12 @@ export default {
 
 .header-swiper{
     background: #ccc;
-    padding-bottom: 33.3333%;
+    padding-bottom: 45.12%;
     height: 0;
 }
 .header-swiper img{
     width: 100%;
-    height: 2.5rem;
+    height: 3.5rem;
 
 }
 .header-swiper >>> .swiper-pagination-bullet-active{

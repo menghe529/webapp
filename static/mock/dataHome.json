@@ -1,0 +1,69 @@
+{
+    "data":[{
+        "city": "北京",
+        "swiperList":[{
+            "id" : "01",
+            "imgUrl": "/api/img/swiper1.jpg"
+        }, {
+            "id" : "02",
+            "imgUrl": "/api/img/swiper2.jpg"
+        }, {
+            "id" : "03",
+            "imgUrl": "/api/img/swiper3.jpg"
+        }],
+
+        "iconsList": [{
+            "id": "01",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
+            "title": "景点"
+        }, {
+            "id": "02",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/69e8b07cb2d438c5530aebd4c8e3abd3.png",
+            "title": "一日游"
+        }, {
+            "id": "03",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/b526fe902327e59922374bf24927a87c.png",
+            "title": "颐和园"
+        }, {
+            "id": "04",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/ba632a670497c3393a864595c5411ca1.png",
+            "title": "八达岭"
+        }, {
+            "id": "05",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/5ffcd4a916f764f678263b27c1e2e00c.png",
+            "title": "天坛公园"
+        }, {
+            "id": "06",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/d706a4d71c57c53ee8863b75a7af30cf.png",
+            "title": "圆明园"
+        }, {
+            "id": "07",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/bd121884123cceb4da978047423421ce.png",
+            "title": "恭王府"
+        }, {
+            "id": "08",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/aba25fb84648c130561afa5398d3552a.png",
+            "title": "北野动物园"
+        }, {
+            "id": "09",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/1d15805633ee19ea51246ff7b0ee216d.png",
+            "title": "景山公园"
+        }, {
+            "id": "10",
+            "iconsUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/aba25fb84648c130561afa5398d3552a.png",
+            "title": "北京动物园"
+        }]
+    }, {
+        "city": "上海",
+        "swiperList":[{
+            "id" : "01",
+            "imgUrl": "@/assets/img/swiper1.jpg"
+        }, {
+            "id" : "02",
+            "imgUrl": "@/assets/img/swiper2.jpg"
+        }, {
+            "id" : "03",
+            "imgUrl": "@/assets/img/swiper3.jpg"
+        }]
+    }]
+}
