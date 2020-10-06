@@ -4,6 +4,25 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// css
+import './assets/css/reset.css'
+import './assets/css/iconfont.css'
+// js
+import FastClick from 'fastclick'
+
+
+// swiper
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+// import style (>= Swiper 6.x)
+// import 'swiper/swiper-bundle.css'
+// import style (<= Swiper 5.x)
+import 'swiper/css/swiper.css'
+Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
+
+
+
+FastClick.attach(document.body);
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
